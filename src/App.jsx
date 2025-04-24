@@ -30,7 +30,7 @@ const App = () => {
   const removeTour = (id) => {
     setTours(tours.filter((tour) => tour.id !== id));
   };
-
+//Task 4
   if (loading) {
     return <h2>Loading...</h2>;
   }
